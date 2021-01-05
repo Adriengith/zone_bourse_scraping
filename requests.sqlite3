@@ -1,0 +1,8 @@
+SELECT * FROM trading_positions;
+
+
+SELECT * FROM trading_positions order by date DESC;
+SELECT * FROM trading_positions order by gains_pertes;
+
+
+DELETE FROM trading_positions WHERE id > 1875;
